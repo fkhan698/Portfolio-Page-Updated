@@ -2,15 +2,18 @@
 <html lang="eng" >
    <head>
       <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
       <title>Portfolio Updated </title>
+      
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.2/css/bootstrap.min.css'>
       <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One" rel="stylesheet">
       <link rel="stylesheet" href="style.css">
    </head>
    <body>
       
-      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-      <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Poiret+One" rel="stylesheet">
+   
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
          <a class="navbar-brand" href="#">Faizan Khan Portfolio Page</a>
          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +47,7 @@
          </div>
       </nav>
       <div id="banner">
-         <img class="banner-photo" src="https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
+         <img src="https://images.pexels.com/photos/691668/pexels-photo-691668.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260">
          <div class="centered tracking-in-expand">
             <h1 id="openingtext">Faizan Khan</h1>
             <p id="openingtext2">Student and Aspiring Web Developer<span lang="es"></span></p>
@@ -64,8 +67,8 @@
             <!-- Jumbotron   -->
             <div id="jumbotron" class="jumbotron">
                <p>
-                My name is Faizan Khan and I am a student at Missouri State University. I am entering my third year and am studying Computer Information Systems (CIS) and have plans on becoming a software engineer. Since I was young I have had a great interest and curiosity in computers and technology. Growing up with the Internet and seeing how software has transformed in the last 10 years further taps into this interest of mine. Outside of school, I dedicate a set amount of time of focus and work in order to learn more about computer programming, that way I can further improve my skills and prepare myself for a career down the road. Below you will see some of the projects I have worked on lately. But I just don’t do because I want a good career, but because I am genuinely passionate about computers and programming - specifically web development. The fact that if I have an idea on a project and can build it however I like, is something fun and exciting. Not only that, but I learn a lot during the process and it helps build problem solving skills. The ability to identify a problem (or bug) and break it down into small steps is the most important aspect of programming and is a skill that improves each time you face these difficulties. And in my opinion problem solving skills don't just help with expierence in programming, but many aspects you face in life.</p>
-                <p>Aside from school and programming, I am someone with a lot of different hobbies and interests. I’m a fun guy. Well thats all I have to say about myself. Enjoy my little projects and feel free to contact me if you have any questions. </p>
+                My name is Faizan Khan and I am a student at Missouri State University. I am entering my third year and am studying Computer Information Systems (CIS) and have plans on becoming a software engineer. Since I was young I have had a great interest and curiosity in computers and technology. Growing up with the Internet and seeing how software has transformed in the last 10 years further taps into this interest of mine. Outside of school, I dedicate a set amount of time of focus and work in order to learn more about computer programming, that way I can further improve my skills and prepare myself for a career down the road. Below you will see some of the projects I have worked on lately. I am genuinely passionate about computers and programming - specifically web development. The fact that if I have an idea on a project and can build it however I like, is something fun and exciting. I learn a lot during the process and it helps build my problem solving skills. </p>
+                <p>Aside from school and programming, I am someone with a lot of different hobbies and interests. I enjoy archery, reading, and weight lifting. I am a avid supporter of Liverpool FC. </p>
             </div>
          </section>
          <section id="quote">
@@ -82,21 +85,15 @@
             <h1>Projects</h1>
             <hr>
             <div class="row">
-               <div class="col-lg-6 col-md-6 col-sm-12">
-                     <h2><a href="https://github.com/fkhan698/Tip-Calculator">An Overly Done Tip Calculator</a>	</h2>
-                     <img class="img-responsive" src="imgs/Roid Ragerz.png">
-                     <p>
-                        A completely unnessary website for those times when you don't exactly know how much to tip your waiter, barber, Uber driver, bartender, etc. Don't even bother using your calculator on your phone. Just use this dumb website that I built. 
-                     </p>
-                </div>
-            
-               <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h2><a href="https://github.com/fkhan698/Tip-Calculator">An Overly Done Tip Calculator</a>	</h2>
-                  <img class="img-responsive" src="imgs/TipCalculator.png">
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2><a href="https://roid-ragerz.herokuapp.com/index.html">Roid Ragerz</a>	</h2>
+                  <img class="img-responsive" src="imgs/Roid-Ragerz.png">
                   <p>
-                   A completely unnessary website for those times when you don't exactly know how much to tip your waiter, barber, Uber driver, bartender, etc. Don't even bother using your calculator on your phone. Just use this dumb website that I built. 
+                   A website for this fictional product loosely based off <a href="https://www.youtube.com/watch?v=BEMlvjJ9uxo">Its Always Sunny</a>. This website was contructed using HTML,CSS, and Javascript (ES6) as well as Node.js in the backend. The Stripe API was implemented in order to process payments for the store. This was also my first project where I used Git to track my progress
                   </p>
                </div>
+            
+          
                <div class="col-lg-6 col-md-6 col-sm-12">
                   <h2><a href="https://github.com/fkhan698/pomodoro_app">Pomodoro App</a>					</h2>
                   <img class="img-responsive" src="imgs/Pomodoro.png">
@@ -104,13 +101,22 @@
                     The Pomodoro Technique is a time management method developed by Francesco Cirillo in the late 1980s. The technique uses a timer to break down work into intervals, traditionally 25 minutes in length, separated by short breaks. Each interval is known as a pomodoro, from the Italian word for 'tomato', after the tomato-shaped kitchen timer that Cirillo used as a university student.
                   </p>
                </div>
-               <div class="col-lg-6 col-md-6 col-sm-12">
-                  <h2><a href="https://codepen.io/fkhan698/pen/MLJYZZ">To-Do List App</a>	</h2>
-                  <img class="img-responsive" src="imgs/ToDoList.png">
+               
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                  <h2><a href="https://github.com/fkhan698/Tip-Calculator">An Overly Done Tip Calculator</a>	</h2>
+                  <img class="img-responsive" src="imgs/TipCalculator.png">
                   <p>
-                    Simple TO-DO list application
+                   A completely unnessary website for those times when you don't exactly know how much to tip your waiter, barber, Uber driver, bartender, etc. Don't even bother using your calculator on your phone. Just use this dumb website that I built. 
                   </p>
                </div>
+               
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                 <h2><a href="https://codepen.io/fkhan698/pen/MLJYZZ">To-Do List App</a>	</h2>
+                 <img class="img-responsive" src="imgs/ToDoList.png">
+                 <p>
+                   Simple TO-DO list application
+                 </p>
+              </div>
               
          </section>
          <!-- Contact Page -->
@@ -122,11 +128,13 @@
          <p>fkhan698@hotmail.com</p>
          <div id="email" class="contact">
             <h1>Playstation Network</h1>
+            <p>(Because I need someone to play Rocket League with)
             <p>Faizinghis_Khan</p>
+          
          </div>
   
          </div>
-      <div class="icons">
+         <center>
          <!-- Linkedin -->
          <a href="https://www.linkedin.com/in/faizan-khan-856118150/"><i id="icons" class="fa fa-linkedin-square" style="font-size: 65px;"> </i></a>
          <!-- Github -->
@@ -136,15 +144,13 @@
          <!-- Mail   -->
          <a href="mailto:fkhan698@hotmail.com" class="contact-details"><i id="icons" class="fa fa-envelope" aria-hidden="true" style="font-size: 55px;"></i>
          </a>
-      </div>    
+         </center>    
          </section>
          </div>
       </div>
-      
+      </center>
    </body>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js'></script>
    </body>
 </html>
-
-<!-- Spanish -->

@@ -3,10 +3,9 @@ body {
   --load-time: 750ms;
 }
 
-.scrollable-div{
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  }
+html {
+  scroll-behavior: smooth;
+}
 
 
 hr {
@@ -23,13 +22,11 @@ a {
 #banner {
   
   position: relative
-  padding:  10px;
+  padding: 10px;
   text-align: center;
   font-color: white;
   
 }
-
-
 
 img {
 /*   vertical-align: top; */
@@ -86,14 +83,12 @@ width: 100%;
   }
 }
 
-
-
 #openingtext {
-  
+  postion: absolute;
   font-size: 75px;
   color: white;
   font-family: Poiret One;
-  animation: text-load var(--load-time) ease-out;
+   animation: text-load var(--load-time) ease-out;
 }
 
 #openingtext2 {
@@ -101,7 +96,6 @@ width: 100%;
   color: white;
   font-family: Poiret One;
   animation: text-load var(--load-time) ease-out;
-
 }
 
 
@@ -123,12 +117,12 @@ width: 100%;
   font-family: 'Poiret One'
 }
   
-
+.
 
 
 
 ul {
-  
+  font-family: ;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -182,7 +176,7 @@ h4 {
 /* Jumbotron */
 
 #jumbotron {
-    
+    font-family: 
     border-color: black;
     border-width: 3px;
     border-radius: 5%;
@@ -236,20 +230,11 @@ h2 {
 
 
 #icons {
-
+  margin-top: 50px;
   color: black;
   padding-right: 50px;
   width: 100px;
   height: 100px;
-}
-.icons {
-  display: flex;
-  margin-top: 50px;
-  align-content: center;
-  justify-content: center;
-}
-.icons:hover{
-  transform: scale(1.1)
 }
 
 
@@ -317,12 +302,11 @@ width: 100%;
 }
 
 
-
 @keyframes nav-load {
-  0% {
-    transform: translateY(-100%);
-}
-100% {
-    transform: translatey(0);
-}
+      0% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translatey(0);
+    }
 }
