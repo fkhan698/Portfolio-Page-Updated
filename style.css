@@ -240,7 +240,7 @@ h2 {
 
 @media (max-width: 800px){
     #openingtext {
-  postion: absolute;
+  position: absolute;
   font-size: 55px;
   color: white;
   font-family: Poiret One;
@@ -267,7 +267,7 @@ width: 100%;
 
 @media (max-width: 470px){
     #openingtext {
-  postion: absolute;
+  position: absolute;
   font-size: 35px;
   color: white;
   font-family: Poiret One;
