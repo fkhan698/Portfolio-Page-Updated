@@ -11,6 +11,8 @@ VANTA.WAVES({
   waveSpeed: 0.75
 })
 
+
+//Tabs
 const tabs = document.querySelectorAll('[data-tab-target]');
 const tabContents = document.querySelectorAll('[data-tab-content]');
 
@@ -23,3 +25,12 @@ tabs.forEach(tab => {
     target.classList.add('active')
   })
 })
+
+//Responsive Navbar
+const toggleButton = document.getElementsByClassName('toggle-button')[0];
+const navLinks = document.getElementsByClassName('nav-links')[0];
+
+toggleButton.addEventListener('click', ()=> {
+  navLinks.classList.toggle('active');
+})
+

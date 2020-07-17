@@ -15,34 +15,42 @@
 <!-- Header  -->
    <div class="header" id="waves">
          <nav class="navbar">
+
+               <a href="#" class="toggle-button">
+                     <span class="bar"></span>
+                     <span class="bar"></span>
+                     <span class="bar"></span>
+               </a>
                <ul class="nav-links">
                   <li><a class="nav-link" href="#">Home</a></li>
-                  <li><a class="nav-link" href="#">About</a></li>
-                  <li><a class="nav-link" href="#">Contact</a></li>
-               </ul>
+                  
+                  <li><a class="nav-link" href="#about-page">About</a></li>
+                  <li><a class="nav-link" href="#contact-page">Contact</a></li>
+               </ul> 
          </nav>
          <div class="intro">
             <h1>Faizan Khan</h1>
             <p>Student and Web Developer</p>
          </div>
-         <button class="view-work-button">Hello World</button>
+         <!-- <button onclick="document.location ='#projects'" class="view-work-button"> View My Work</button> -->
    </div>
 
    <!-- About Section -->
-   <section class="about">
+   <section id="about-page" class="about">
       <div class="container">
          <h1 class="section-header"><u>About</u></h1>
          <div class="image">
             <img class="profile-pic" src="imgs/ProfilePic.jpg" alt="">
          </div>
          <div class="about-text">
-            <p>Hello! My name is Faizan Khan and I am a senior studying Application Development at Missouri State University. </p>
+            <p>Hello! My name is Faizan Khan and I am a senior studying Application Development at Missouri State University. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ex cumque culpa suscipit voluptatem aspernatur veniam necessitatibus perspiciatis molestias porro cupiditate quas aperiam rem iusto. Consequatur possimus vel pariatur dignissimos?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, error nisi explicabo ex, eius minima voluptatem quod numquam odit temporibus iure repellat officiis, iste unde ipsum laboriosam adipisci. Ex, adipisci.</p>
          </div>
       </div>
    </section>
 
    <!-- Projects -->
-   <section class="projects">
+   <section id="projects" class="projects">
       <div class="container">
             <h1 class="section-header"><u>Personal Projects</u></h1>
       
@@ -56,25 +64,72 @@
                </nav>
                <div class="tab-content">
                      <div id="all" data-tab-content class="active">
-                       <img class="project-image" src="/imgs/Pomodoro.png" alt="">
-                       <img class="project-image" src="/imgs/Roid-Ragerz.png" alt="">
-                       <img class="project-image" src="/imgs/MovieDBApp.png" alt="">
-                       <img class="project-image" src="/imgs/TODoList.png" alt="">
-                       
+                           <div class="project-card">
+                                 <h1 class="project-name">Library 2.0</h1>
+                                 <a href="https://fullstack-library-2.herokuapp.com/"><img class="project-image" src="/imgs/library2.0.png"  alt=""></a>
+                                 
+                           </div>
+                        <div class="project-card">
+                              <h1 class="project-name"><a href="">Blog App</a></h1>
+                              <a href="https://blog-application-fkhan.herokuapp.com/login"><img class="project-image" src="/imgs/blog-application.png"  alt=""></a>
+                        </div>
+                        <div class="project-card">
+                              <h1 class="project-name"><a href="">Movie DB React App</a></h1>
+                              <a href="https://codesandbox.io/s/competent-darkness-7ypt4"><img class="project-image" src="/imgs/MovieDBApp.png"  alt=""></a>
+                        </div>
+                        <div class="project-card">
+                              <h1 class="project-name">Hacker News Clone</h1>
+                              <a href="https://codesandbox.io/s/elated-fire-fzff3"><img class="project-image" src="/imgs/hacker-news.png"  alt=""></a>
+                        </div>
+
+               
                      </div>
                      <div id="frontend" data-tab-content>
-                           <img class="project-image" src="/imgs/TODoList.png" alt="">
-                           <img class="project-image" src="/imgs/Roid-Ragerz.png" alt="">
-                           <img class="project-image" src="/imgs/TODoList.png" alt="">
-                           <img class="project-image" src="/imgs/Roid-Ragerz.png" alt="">
+                           <div class="project-card">
+                                 <h1 class="project-name">Walnut Barber Shop</h1>
+                                 <a href="https://elastic-galileo-e1105e.netlify.app/"><img class="project-image" src="/imgs/walnut-barber.png"  alt=""></a>
+                                 
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name">Pomodoro App</h1>
+                                 <a href="https://github.com/fkhan698/pomodoro_app"><img class="project-image" src="/imgs/Pomodoro.png"  alt=""></a>
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name"> To-DO Application</h1>
+                                 <a href="https://codepen.io/fkhan698/pen/MLJYZZ"><img class="project-image" src="/imgs/TODoList.png"  alt=""></a>
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name"><a href="https://codepen.io/fkhan698/pen/MWYvbrQ">Password Generator</a></h1>
+                                 <a href="https://codepen.io/fkhan698/pen/MWYvbrQ"><img class="project-image" src="/imgs/password-generator.png"  alt=""></a>
+                           </div>
                      </div>
                      <div id="backend" data-tab-content>
-                           <img class="project-image" src="/imgs/Roid-Ragerz.png" alt="">
-                           <img class="project-image" src="/imgs/TODoList.png" alt="">
+                           <img class="project-image" src="/imgs/library2.0.png" alt="">
+                           <img class="project-image" src="/imgs/blog-application.png" alt="">
                            <img class="project-image" src="/imgs/Roid-Ragerz.png" alt="">
                      </div>
                      <div id="react" class="panel" data-tab-content>
-                           <img class="project-image" src="/imgs/MovieDBApp.png" alt="">
+                           <div class="project-card">
+                                 <h1 class="project-name">Movie Database App</h1>
+                                 <a href="https:/google.com"><img class="project-image" src="/imgs/MovieDBApp.png"  alt=""></a>
+                                 
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name"><a href="">Hacker News Clone</a></h1>
+                                 <img class="project-image" src="/imgs/hacker-news.png"  alt="">
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name"><a href="">Expense Tracker</a></h1>
+                                  <img class="project-image" src="/imgs/expense-tracker.png"  alt="">
+                           </div>
+                           <div class="project-card">
+                                 <h1 class="project-name"><a href="">Recipe Database</a></h1>
+                                  <img class="project-image" src="/imgs/recipe-app.png"  alt="">
+                           </div>
+                          
+                     </div>
+                           
+
                       </div>
                   </div>
       </div>
@@ -82,16 +137,16 @@
       </div>
    </section>
 
-   <section class="contact-page">
+   <section id="contact-page" class="contact-page">
       <div class="container">
             <h1 class="section-header"><u>Contact</u></h1>
             <div class="contact-info">
                <h1>fkhan698@hotmail.com</h1>
             </div>
             <div class="sm">
-                  <a class="sm-link" href=""><i class="fab fa-facebook-f"></i></a>
-                  <a class="sm-link" href=""><i class="fab fa-github"></i></a>
-                  <a class="sm-link" href=""><i class="fab fa-codepen"></i></a>
+                  <a class="sm-link" href="https://www.facebook.com/faizan.khan.7146"><i class="fab fa-facebook-f"></i></a>
+                  <a class="sm-link" href="https://github.com/fkhan698"><i class="fab fa-github"></i></a>
+                  <a class="sm-link" href="https://codepen.io/dashboard/"><i class="fab fa-codepen"></i></a>
                   <a class="sm-link" href=""><i class="fab fa-linkedin-in"></i></a>
                   
                 </div>
