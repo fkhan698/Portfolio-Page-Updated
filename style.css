@@ -144,7 +144,7 @@ border-radius: 50px;
 .about-text {
   text-align: center;
  font-family: var(--font-family);
- font-size: 30px;
+ font-size: 20px;
  line-height: 1.6;
  margin: 0rem 9rem 0em 9rem;
  color:#FFF;
@@ -305,27 +305,31 @@ position: relative;
   .nav-links {
       display: none;
       width: 100%;
+      
   }
 
   .nav-links ul {
       width: 100%;
       flex-direction: column;
+    
      
   }
 
   .nav-links ul li {
       text-align: center;
+      
   }
 
   .nav-links ul li a {
       padding: .5rem 1rem;
+
      
   }
 
   .nav-links.active {
       display: flex;
       flex-direction: column;
-      margin-top: 5rem;
+      margin-top: 7rem;
       margin-left: auto;
       transition: cubic-bezier(0.785, 0.135, 0.15, 0.86);
   }
