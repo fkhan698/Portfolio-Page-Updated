@@ -19,7 +19,7 @@ body, html {
 }
 
 .header {
-  height: 800px;
+  height: 900px;
   width: 100%;
   margin: 0;
   padding: 0px;
@@ -96,6 +96,7 @@ body, html {
   font-family: var(--font-family);
   font-size: 3.5rem;
   color: white;
+  animation: drop 1.5s ease;
 }
 .view-work-button{
 margin: 0 auto;
@@ -110,6 +111,7 @@ font-size: 1.25rem;
 font-family: var(--font-family);
 font-weight: 500;
 border-radius: 50px;
+animation: drop 1.5s ease;
 
 }
 .view-work-button:hover {
@@ -289,6 +291,17 @@ position: relative;
 }
 .fa-linkedin-in::before{
   background-image: linear-gradient(135deg, #000 30%, #000 50%)
+}
+
+@keyframes drop {
+  0% {
+    opacity: 0;
+    transform: translateY(-80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 
 @media screen and (max-width: 860px){
