@@ -98,6 +98,14 @@ body, html {
   color: white;
   animation: drop 1.5s ease;
 }
+a {
+  color: #FFF;
+  text-decoration: none;
+} 
+
+ .email-link:hover {
+  color: #B89F5D
+}
 .view-work-button{
 margin: 0 auto;
 display: block;
@@ -225,6 +233,7 @@ animation: drop 1.5s ease;
 
 .contact-info {
   text-align: center;
+
  font-family: var(--font-family);
  font-size: 20px;
  line-height: 1.6;
@@ -367,6 +376,7 @@ position: relative;
   }
    .contact-info {
      margin: auto;
+     font-size: 50px;
    }
    .sm-link {
 
@@ -388,6 +398,7 @@ position: relative;
     border-radius: 20%;
   }
 
+  
 
 
 }
