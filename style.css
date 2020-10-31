@@ -397,12 +397,16 @@ position: relative;
     transform: scale(1.1);
     border-radius: 20%;
   }
+  .email-link{
+    margin: auto, 0;
+    font-size: 30px;
+  }
 
   
 
 
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 650px){
   .project-nav-links {
     flex-direction: column;
     
@@ -410,5 +414,7 @@ position: relative;
   .project-nav{
   margin-right: 2rem;
   }
+
+
 }
   
