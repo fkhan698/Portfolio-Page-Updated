@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  margin: 6rem;
+}
+
+.name {
+  font-size: 5rem;
+}
+
+.title {
+  font-size: 3rem;
+}
+.image {
+  width: 400px;
+  border-style: hidden;
+  border-radius: 10%;
+  margin: auto;
+}
